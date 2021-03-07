@@ -1,0 +1,23 @@
+```{r}
+F <- 1:100
+print(F)
+
+G <- matrix(F, 10,10, TRUE)
+print(G)
+
+H <- t(G)
+print(H)
+
+J <- G+H
+print(J)
+
+det(G)
+det(H)
+det(J)
+
+K <- G[, 1:5]+J[, 1:5]
+print(K)
+
+G*det(G)
+```
+
